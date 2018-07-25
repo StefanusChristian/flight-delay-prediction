@@ -1,4 +1,4 @@
-# Prediksi penundaan pada penerbangan tahun 2017 di amerika dari Data Jadwal penerbangan di Amerika pada Tahun 2003-2015
+# Prediksi penundaan pada penerbangan tahun 2017 di Amerika dari Data Jadwal penerbangan di Amerika pada Tahun 2003-2015
 
 Aplikasi shiny ini akan menunjukkan data pada jadwal penerbangan dan jumlah penerbangan yang ditunda pada seluruh bandara di Amerika pada tahun 2003-2015.Aplikasi ini juga dapat digunakan untuk memprediksi penundaan yang akan terjadi pada Tahun 2017 dengan menggunakan data sebelumnya yaitu tahun 2003-2015.
 
