@@ -29,12 +29,12 @@ b.	magrittr (install.package(“magrittr”) )
 ## Metode Prediksi : 
 Kami menggunakan Linear Regression untuk memprediksi delayed flight pada aplikasi kami. Linear Regression sendiri itu digunakan untuk memprediksi (y). Variable y itu sendiri adalah hasil prediksi yang didapatkan berdasarkan data dari variable(x).
 
-<p align ="center"><h1>Lm(y~x)</h1></p>
+<p align = "center"> <h1>Lm(y~x)</h1> </p>
 
 ## Pemodelan :
-1.Ini adalah Data original yang kita dapatkan. Data telah difilter.
+1.Ini adalah Data Frame dari file original(CSV) yang telah kita filter sesuai dengan yang dibutuhkan dalam melakukan prediksi.
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/originaldata.png"> </p>
-2.Dari data yang baru tersebut, kita dapat run agar kita dapat mendapatkan data yang lebih baru lagi yaitu prediksi untuk penerbangan yang akan terjadi pada tahun 2017. Hasil prediksi penerbangan pada tahun 2017 akan di masukan di Dataframe newTest
+2.Dari data tersebut, kita dapat membuat dataframe untuk menjadi variable yang digunakan dalam prediksi untuk penerbangan yang akan terjadi pada tahun 2017. Hasil prediksi penerbangan pada tahun 2017 akan di masukan di Dataframe newTest
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/newtest.png"> </p>
 3.Hasil dari prediksi tersebut akan digabung dengan data original yang sudah difilter dan ditampung di newdf.
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/newdf.png"> </p>
