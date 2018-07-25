@@ -34,9 +34,13 @@ Kami menggunakan Linear Regression untuk memprediksi delayed flight pada aplikas
 ## Pemodelan :
 1.Ini adalah Data Frame dari file original(CSV) yang telah kita filter sesuai dengan yang dibutuhkan dalam melakukan prediksi.
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/originaldata.png"> </p>
-2.Dari data tersebut, kita dapat membuat dataframe untuk menjadi variable yang digunakan dalam prediksi untuk penerbangan yang akan terjadi pada tahun 2017. Hasil prediksi penerbangan pada tahun 2017 akan di masukan di Dataframe newTest
+2.Dari data tersebut, kita dapat membuat DataFrame testData untuk menjadi variabel yang akan digunakan dalam prediksi delay penerbangan pada tahun 2017. Hasil prediksi penerbangan pada tahun 2017 akan dimasukkan ke dalam DataFrame baru newTest
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/newtest.png"> </p>
-3.Hasil dari prediksi tersebut akan digabung dengan data original yang sudah difilter dan ditampung di newdf.
+3.Hasil dari prediksi tersebut (newTest) akan digabung dengan data original yang sudah difilter dan ditampung di newdf. DataFrame ini yang nantinya akan digunakan pada aplikasi R Shiny.
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/newdf.png"> </p>
-4.Ini adalah tampilan dari hasil prediksi yang telah dijalankan.
+4.Berikut adalah tampilan R Shiny untuk menunjukkan data delay setiap tahun. Data yang merupakan hasil prediksi adalah semua data pada tahun 2017.
 <p align = "center"> <img src ="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/shiny.png"> </p>
+
+## Disklaim :
+Data yang kita gunakan pada pembuatan aplikasi ini berasal dari https://think.cs.vt.edu/corgis/csv/airlines/airlines.html, dan data ini hanya digunakan untuk kepentingan akademis semata.
+Pembuatan aplikasi ini bertujuan untuk memenuhi tugas mata kuliah Frontier Technology jurusan Teknik Informtika Universitas Pelita Harapan semester Akselerasi 2017/2018
