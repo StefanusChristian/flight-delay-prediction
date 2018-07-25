@@ -22,7 +22,7 @@ b.	magrittr (install.package(“magrittr”) )
 ## Cara Kerja : 
 1.	Buka R studio (jika belum ada, bisa diinstall terlebih dahulu)
 2.  Buka file project <i>test.Rproj</i>
-2.	Buka file <i>scriptDelay.R</i> dan pastikan semua library pada script tersebut sudah di install (Lakukan Cara Menginstall).
+2.	Buka file <i>scriptDelay.R</i>. Pastikan file <i>FlightData.csv</i> ada pada satu directory yang sama dengan <i>test.Rproj</i>  dan semua library pada script tersebut sudah di install (Lakukan Cara Menginstall).
 3.	Jalankan script
 4.  Buka <i>ui.R</i> dan <i>server.R</i>
 4.	Jalankan aplikasi Shiny untuk melihat hasilnya
