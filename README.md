@@ -32,9 +32,9 @@ Kami menggunakan Linear Regression untuk memprediksi delayed flight pada aplikas
 <p align ="center"><h1>Lm(y~x)</h1></p>
 
 ## Pemodelan :
-1.	Ini adalah Data original yang kita dapatkan. Data telah difilter.
+1.Ini adalah Data original yang kita dapatkan. Data telah difilter.
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/originaldata.png">
-2. 2.	Dari data yang baru tersebut, kita dapat run agar kita dapat mendapatkan data yang lebih baru lagi yaitu prediksi untuk penerbangan yang akan terjadi pada tahun 2017. Hasil prediksi penerbangan pada tahun 2017 akan di masukan di Dataframe newTest
+2.Dari data yang baru tersebut, kita dapat run agar kita dapat mendapatkan data yang lebih baru lagi yaitu prediksi untuk penerbangan yang akan terjadi pada tahun 2017. Hasil prediksi penerbangan pada tahun 2017 akan di masukan di Dataframe newTest
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/newtest.png">
 3.Hasil dari prediksi tersebut akan digabung dengan data original yang sudah difilter dan ditampung di newdf.
 <p align = "center"> <img src="https://github.com/justinjunias/flight-delay-prediction/blob/master/test/newdf.png">
