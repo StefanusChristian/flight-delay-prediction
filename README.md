@@ -17,13 +17,12 @@ Aplikasi shiny ini akan menunjukkan data pada jadwal penerbangan dan jumlah pene
 3.	Beberapa package yang perlu di Install terlebih dahulu :
 a.	dplyr  ( install.package(“dplyr”) )
 b.	magrittr (install.package(“magrittr”) )
-4.	Jalankan skrip agar data dapat dipakai untuk memprediksi data selanjutnya.
-5.	Jalankan aplikasi Shiny.
+4.	Jalankan skrip tersebut untuk melakukan instalasi package tersebut.
 
 ## Cara Kerja : 
 1.	Buka R studio (jika belum ada, bisa diinstall terlebih dahulu)
 2.  Buka file project <i>test.Rproj</i>
-2.	Buka file <i>scriptDelay.R</i> dan pastikan semua library pada script tersebut sudah di install.
+2.	Buka file <i>scriptDelay.R</i> dan pastikan semua library pada script tersebut sudah di install (Lakukan Cara Menginstall).
 3.	Jalankan script
 4.  Buka <i>ui.R</i> dan <i>server.R</i>
 4.	Jalankan aplikasi Shiny untuk melihat hasilnya
