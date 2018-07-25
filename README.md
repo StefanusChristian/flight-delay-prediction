@@ -43,4 +43,5 @@ Kami menggunakan Linear Regression untuk memprediksi delayed flight pada aplikas
 
 ## Disklaim :
 Data yang kita gunakan pada pembuatan aplikasi ini berasal dari https://think.cs.vt.edu/corgis/csv/airlines/airlines.html, dan data ini hanya digunakan untuk kepentingan akademis semata.
-Pembuatan aplikasi ini bertujuan untuk memenuhi tugas mata kuliah Frontier Technology jurusan Teknik Informtika Universitas Pelita Harapan semester Akselerasi 2017/2018
+
+Pembuatan aplikasi ini bertujuan untuk memenuhi tugas mata kuliah <i>Frontier Technology</i> jurusan Teknik Informtika Universitas Pelita Harapan semester Akselerasi 2017/2018
