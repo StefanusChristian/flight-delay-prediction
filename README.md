@@ -22,8 +22,10 @@ b.	magrittr (install.package(“magrittr”) )
 
 ## Cara Kerja : 
 1.	Buka R studio (jika belum ada, bisa diinstall terlebih dahulu)
-2.	Pastikan skrip sudah ada di dalam folder R studio
-3.	Jalankan Skrip
+2.  Buka file project <i>test.Rproj</i>
+2.	Buka file <i>scriptDelay.R</i> dan pastikan semua library pada script tersebut sudah di install.
+3.	Jalankan script
+4.  Buka <i>ui.R</i> dan <i>server.R</i>
 4.	Jalankan aplikasi Shiny untuk melihat hasilnya
 
 ## Metode Prediksi : 
